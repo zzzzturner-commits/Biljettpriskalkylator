@@ -8,13 +8,13 @@ Om åldern är ett negativt tal ska programmet ge ett ValueError
 # Åtgärder i koden:
 
 Åldrarna beräknades fel i programmet.
- if age <= 13
+ **if age <= 13:**
 Ska vara 12. om åldern är mindre eller lika med 12 ska priset vara 50
- if age < 65:
+ **if age < 65:**
 ska vara 64 och det fattas ett lika med tecken. Om åldern är mindre eller lika med eller mindre än 64 ska priset vara 100.
 
 La till 
- if age >= 65:
+ **if age >= 65:**
 för att räkna ut ålder över 65. då den saknades. Om åldern är högre eller lika med 65 är priset 80.
 
 # Åtgärger i test koden:
